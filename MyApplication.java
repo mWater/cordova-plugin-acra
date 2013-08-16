@@ -3,7 +3,7 @@ package co.mwater.acraplugin;
 import android.app.Application;
 import org.acra.*;
 import org.acra.annotation.*;
-import co.mwater.plugintests.R;
+import co.mwater.clientapp.R;
 
 @ReportsCrashes(formKey="",
 	formUri = "http://api.mwater.co/v3/acra_reports",
