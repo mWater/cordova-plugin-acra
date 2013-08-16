@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+      id="co.mwater.acraplugin"
+      version="0.1.0">
+    <name>ACRA</name>
+
+    <platform name="android">
+        <config-file target="AndroidManifest.xml" parent="/*">
+            <uses-permission android:name="android.permission.INTERNET" />
+        </config-file>
+
+        <source-file src="acra-4.5.0.jar" target-dir="libs" />
+        <source-file src="MyApplication.java" target-dir="src/co/mwater/acraplugin" />
+        <source-file src="acra_strings.xml" target-dir="res/values" />
+     </platform>
+</plugin>     

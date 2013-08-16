@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="crash_toast_text">Sorry, it seems mWater has crashed! The developers have been automatically notified.</string>
+</resources>
