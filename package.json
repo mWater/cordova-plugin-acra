@@ -1,0 +1,20 @@
+{
+  "name": "cordova-plugin-acra",
+  "version": "1.0.0",
+  "description": "You must add android:name=\"co.mwater.acraplugin.MyApplication\" to application element of AndroidManifest.xml",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mWater/cordova-plugin-acra.git"
+  },
+  "cordova": {
+    "platforms": [
+      "android"
+    ]
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mWater/cordova-plugin-acra/issues"
+  },
+  "homepage": "https://github.com/mWater/cordova-plugin-acra#readme"
+}
